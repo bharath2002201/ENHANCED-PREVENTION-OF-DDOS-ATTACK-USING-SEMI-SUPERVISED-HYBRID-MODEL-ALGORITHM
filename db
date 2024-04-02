@@ -1,0 +1,18 @@
+create database db;
+use db
+ 
+drop table userreg;
+
+drop table rec;
+drop table conest;
+commit;
+
+
+create table userreg(user_name varchar(200),pass varchar(200),email varchar(200));
+
+create table rec(user_name varchar(200));
+
+create table conest(user_name varchar(200));
+
+
+commit;
